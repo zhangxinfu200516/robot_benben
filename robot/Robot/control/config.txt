@@ -1,0 +1,28 @@
+# ==========================
+# 小车参数配置文件
+# 改这里 不用编译！！！
+# ==========================
+
+# PID参数
+PID_L_KP=0.002
+PID_L_KI=0.05
+PID_L_KD=0.0
+
+PID_R_KP=0.002
+PID_R_KI=0.05
+PID_R_KD=0.0
+
+# 系统
+BASE_SPEED=30.0
+MAX_MOTOR_DUTY=40
+servo_set_mid=90.0
+ANGLE_THRESHOLD=1.5
+
+# 转向
+STEER_KP=0.3
+STEER_KD=0.05
+STEER_RATIO=0.7
+
+# 车体
+WHEEL_BASE=15.0
+WHEEL_TRACK=12.0
