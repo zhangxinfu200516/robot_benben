@@ -23,7 +23,7 @@ message("Parent parent folder name: ${PARENT_PARENT_FOLDER_NAME}")
 project(${PARENT_PARENT_FOLDER_NAME} VERSION 0.1.0 LANGUAGES C CXX)
 
 # 设置OpenCV的安装路径
-set(CMAKE_PREFIX_PATH "/home/benben/桌面/opencv-4.11.0/loongson/install") 
+set(CMAKE_PREFIX_PATH "/home/zxf/桌面/opencv-4.11.0/loongson/install") 
 
 # 查找OpenCV库，确保安装了所需的依赖
 find_package(OpenCV REQUIRED)

@@ -6,5 +6,5 @@ CXX_FLAGS =  -O3 -pthread -Wall   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/benben/桌面/Temp/robot/Robot/user/../user -I/home/benben/桌面/Temp/robot/Robot/user/../control -I/home/benben/桌面/Temp/robot/Robot/user/../image -I/home/benben/桌面/Temp/robot/Robot/user/../../libraries/zf_common -I/home/benben/桌面/Temp/robot/Robot/user/../../libraries/zf_device -I/home/benben/桌面/Temp/robot/Robot/user/../../libraries/zf_driver -I/home/benben/桌面/Temp/robot/Robot/user/../../libraries/zf_components -I/home/benben/桌面/Temp/robot/Robot/user/../../libraries/robot_source -isystem /home/benben/桌面/opencv-4.11.0/loongson/install/include/opencv4 
+CXX_INCLUDES = -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../user -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../control -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../image -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../../libraries/zf_common -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../../libraries/zf_device -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../../libraries/zf_driver -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../../libraries/zf_components -I/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/../../libraries/robot_source -isystem /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/include/opencv4 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benben/桌面/Temp/robot/Robot/user
+CMAKE_SOURCE_DIR = /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benben/桌面/Temp/robot/Robot/build
+CMAKE_BINARY_DIR = /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Robot.dir/depend.make
@@ -58,764 +58,764 @@ include CMakeFiles/Robot.dir/progress.make
 include CMakeFiles/Robot.dir/flags.make
 
 CMakeFiles/Robot.dir/main.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/main.cpp.o: /home/benben/桌面/Temp/robot/Robot/user/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robot.dir/main.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/main.cpp.o -c /home/benben/桌面/Temp/robot/Robot/user/main.cpp
+CMakeFiles/Robot.dir/main.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robot.dir/main.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/main.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/main.cpp
 
 CMakeFiles/Robot.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/main.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/user/main.cpp > CMakeFiles/Robot.dir/main.cpp.i
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/main.cpp > CMakeFiles/Robot.dir/main.cpp.i
 
 CMakeFiles/Robot.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/main.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/user/main.cpp -o CMakeFiles/Robot.dir/main.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/PID.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/PID.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/PID.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/PID.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/config.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/config.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/config.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/machine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/machine.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/machine.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/machine.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/motor.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/motor.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/motor.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/sensor.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/sensor.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/sensor.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/servo.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/servo.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/servo.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o: /home/benben/桌面/Temp/robot/Robot/control/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o -c /home/benben/桌面/Temp/robot/Robot/control/timer.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/control/timer.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/control/timer.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o: /home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o -c /home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o: /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o -c /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.s
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o: CMakeFiles/Robot.dir/flags.make
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o: /home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o -c /home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.i"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp > CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.i
-
-CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.s"
-	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp -o CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.s
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user/main.cpp -o CMakeFiles/Robot.dir/main.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.s
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o: CMakeFiles/Robot.dir/flags.make
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o: /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o -c /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.i"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp > CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.i
+
+CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.s"
+	/opt/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.4/bin/loongarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp -o CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.s
 
 # Object files for target Robot
 Robot_OBJECTS = \
 "CMakeFiles/Robot.dir/main.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o" \
-"CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o"
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o" \
+"CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o"
 
 # External object files for target Robot
 Robot_EXTERNAL_OBJECTS =
 
 Robot: CMakeFiles/Robot.dir/main.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/PID.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/Socket_Tcp.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/config.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/keyboard_control.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/machine.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/motor.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/sensor.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/servo.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/control/timer.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_barrier.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_common.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_cross.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_data.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_get_corners.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_handle_img.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_img_process.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_state.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_tracking.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_transform_table.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/Robot/image/gl_zebra.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_fifo.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_font.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_common/zf_common_function.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660ra.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu660rb.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu963ra.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_imu_core.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_device/zf_device_uvc.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_adc.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_delay.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_encoder.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_file.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_gpio.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pit.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_pwm.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_driver/zf_driver_udp.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/GPIO.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/PWMController.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/encoder.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_atim.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/pwm_gtim.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/register.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/vl53l0x.cpp.o
-Robot: CMakeFiles/Robot.dir/home/benben/桌面/Temp/robot/libraries/robot_source/wonderEcho.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/PID.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/Socket_Tcp.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/config.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/keyboard_control.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/machine.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/motor.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/sensor.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/servo.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/control/timer.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_barrier.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_common.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_cross.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_data.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_get_corners.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_handle_img.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_img_process.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_state.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_tracking.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_transform_table.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/image/gl_zebra.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_fifo.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_font.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_common/zf_common_function.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660ra.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu660rb.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu963ra.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_imu_core.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_ips200_fb.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_device/zf_device_uvc.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_adc.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_delay.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_encoder.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_file.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_gpio.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pit.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_pwm.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_tcp_client.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_driver/zf_driver_udp.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/zf_components/seekfree_assistant_interface.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/GPIO.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/PWMController.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/encoder.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_atim.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/pwm_gtim.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/register.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/vl53l0x.cpp.o
+Robot: CMakeFiles/Robot.dir/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/libraries/robot_source/wonderEcho.cpp.o
 Robot: CMakeFiles/Robot.dir/build.make
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_gapi.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_highgui.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_ml.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_objdetect.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_photo.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_stitching.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_video.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_videoio.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_imgcodecs.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_dnn.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_calib3d.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_features2d.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_flann.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_imgproc.so.4.11.0
-Robot: /home/benben/桌面/opencv-4.11.0/loongson/install/lib/libopencv_core.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_gapi.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_highgui.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_ml.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_objdetect.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_photo.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_stitching.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_video.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_videoio.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_imgcodecs.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_dnn.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_calib3d.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_features2d.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_flann.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_imgproc.so.4.11.0
+Robot: /home/zxf/桌面/opencv-4.11.0/loongson/install/opencv/lib/libopencv_core.so.4.11.0
 Robot: CMakeFiles/Robot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benben/桌面/Temp/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable Robot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable Robot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Robot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -828,6 +828,6 @@ CMakeFiles/Robot.dir/clean:
 .PHONY : CMakeFiles/Robot.dir/clean
 
 CMakeFiles/Robot.dir/depend:
-	cd /home/benben/桌面/Temp/robot/Robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benben/桌面/Temp/robot/Robot/user /home/benben/桌面/Temp/robot/Robot/user /home/benben/桌面/Temp/robot/Robot/build /home/benben/桌面/Temp/robot/Robot/build /home/benben/桌面/Temp/robot/Robot/build/CMakeFiles/Robot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/user /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build /home/zxf/桌面/Ubantu_loogxin_share/Code/robot/Robot/build/CMakeFiles/Robot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Robot.dir/depend
 
