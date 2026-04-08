@@ -30,12 +30,6 @@ float IncrementalPID::calculate(bool direction, float setpoint, float measured_v
     // 4. 增量限幅
     if(delta_output > 7.0f) delta_output = 7.0f;
 
-    // 5. 低速补偿（测量值远小于目标值时）
-    if(setpoint + 70 < measured_value)
-    {
-        delta_output *= 1.15f;
-    }
-
     // 6. 更新输出值
     output += delta_output;
 
